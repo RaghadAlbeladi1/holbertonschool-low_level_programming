@@ -1,6 +1,6 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 
 char *create_array(unsigned int size, char c);
 
-#endif /* MAIN_H */ 
+#endif /* MAIN_H */
