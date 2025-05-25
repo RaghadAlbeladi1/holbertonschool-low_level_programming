@@ -1,4 +1,4 @@
-# 📚 0x0D. C - Structures, typedef
+# 📚  C - Structures, typedef
 
 ![C Language](https://img.shields.io/badge/C-Programming-blue)
 ![Holberton](https://img.shields.io/badge/Holberton-Project-red)
