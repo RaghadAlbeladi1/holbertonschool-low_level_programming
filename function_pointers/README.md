@@ -1,4 +1,4 @@
-<h1 align="center">🧠 0x0E. C - Function Pointers</h1>
+<h1 align="center">🧠  C - Function Pointers</h1>
 
 <p align="center">
   <b>A Holberton-style low-level programming project</b> <br>
