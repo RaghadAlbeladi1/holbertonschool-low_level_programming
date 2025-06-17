@@ -2,13 +2,10 @@
 #include <stdio.h>
 
 /**
-* binary_to_uint - Converts a binary number to an unsigned int.
-* @b: A pointer to a string of 0 and 1 chars.
-*
-* Return: If b is NULL or contains chars not 0 or 1 - 0.
-*         Otherwise - the converted number.
-*/
-
+ * binary_to_uint - convert a binary number to an unsigned int
+ * @b: char string
+ * Return: converted decimal number or 0 if there is an unconvertable char
+ */
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int total, power;
