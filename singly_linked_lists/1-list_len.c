@@ -1,9 +1,3 @@
-1. List length
-mandatory
-Write a function that returns the number of elements in a linked list_t list.
-
-Prototype: size_t list_len(const list_t *h);
-julien@ubuntu:~/Singly linked lists$ cat 1-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -38,12 +32,4 @@ free(new->str);
 free(new);
 return (0);
 }
-julien@ubuntu:~/Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list_len.c -o b
-julien@ubuntu:~/Singly linked lists$ ./b
--> 2 elements
-julien@ubuntu:~/Singly linked lists$
-Repo:
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: singly_linked_lists
-File: 1-list_len.c
